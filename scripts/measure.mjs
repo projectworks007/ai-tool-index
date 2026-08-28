@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 /**
- * Weekly measurement. Runs LOCALLY, never in CI — the Apify token stays on this machine and is
+ * Daily measurement. Runs LOCALLY, never in CI — the Apify token stays on this machine and is
  * never uploaded as a repository secret.
+ *
+ * Why daily when the index publishes weekly: measured 2026-08-28, two runs hours apart with the
+ * same questions moved four of six tools, and swapped the leader. A single snapshot is noise.
+ * Seven daily samples make the published weekly number mean something.
  *
  * Asks a fixed, public set of buyer questions through the AI Search Visibility Tracker
  * (an Apify Actor) and records which tools each engine's answer actually cites. The prompt set
