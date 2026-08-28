@@ -1,0 +1,13 @@
+{
+    "name": "ai-tool-index",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "description": "Weekly measurement of which tools AI assistants cite when asked what to use",
+    "scripts": {
+        "measure": "node scripts/measure.mjs",
+        "build": "node scripts/build.mjs",
+        "week": "node scripts/measure.mjs && node scripts/build.mjs"
+    },
+    "license": "MIT"
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "google-maps-scrapers",
+    "title": "Google Maps scrapers",
+    "queries": [
+      "best google maps scraper",
+      "google maps scraper comparison",
+      "how to extract business emails from google maps",
+      "google maps lead generation tool with email finder",
+      "cheapest google maps data extraction api"
+    ],
+    "trackedDomains": ["apify.com", "brightdata.com", "scrap.io", "lobstr.io", "outscraper.com"],
+    "tools": [
+      { "name": "Apify — compass/crawler-google-places", "url": "https://apify.com/compass/crawler-google-places", "match": "apify\\.com/compass|crawler-google-places" },
+      { "name": "Apify — lukaskrivka/google-maps-with-contact-details", "url": "https://apify.com/lukaskrivka/google-maps-with-contact-details", "match": "lukaskrivka|google-maps-with-contact-details" },
+      { "name": "Apify — highbrow_fame/google-maps-email-extractor", "url": "https://apify.com/highbrow_fame/google-maps-email-extractor", "match": "apify\\.com/highbrow_fame/google-maps-email-extractor" },
+      { "name": "Outscraper", "url": "https://outscraper.com", "match": "outscraper\\.com" },
+      { "name": "Scrap.io", "url": "https://scrap.io", "match": "scrap\\.io" },
+      { "name": "Lobstr", "url": "https://lobstr.io", "match": "lobstr\\.io" },
+      { "name": "Bright Data", "url": "https://brightdata.com", "match": "brightdata\\.com" },
+      { "name": "PhantomBuster", "url": "https://phantombuster.com", "match": "phantombuster\\.com" }
+    ]
+  },
+  {
+    "id": "web-scraping-apis",
+    "title": "General web scraping APIs",
+    "queries": [
+      "best web scraping api 2026",
+      "web scraping api comparison",
+      "which scraping api handles javascript sites best",
+      "cheapest web scraping api for small projects"
+    ],
+    "trackedDomains": ["apify.com", "brightdata.com", "zyte.com", "scrapingbee.com", "firecrawl.dev"],
+    "tools": [
+      { "name": "Apify", "url": "https://apify.com", "match": "apify\\.com" },
+      { "name": "Bright Data", "url": "https://brightdata.com", "match": "brightdata\\.com" },
+      { "name": "Zyte", "url": "https://zyte.com", "match": "zyte\\.com" },
+      { "name": "ScrapingBee", "url": "https://scrapingbee.com", "match": "scrapingbee\\.com" },
+      { "name": "Firecrawl", "url": "https://firecrawl.dev", "match": "firecrawl\\.dev" },
+      { "name": "Scrapingdog", "url": "https://scrapingdog.com", "match": "scrapingdog\\.com" },
+      { "name": "Scrape.do", "url": "https://scrape.do", "match": "scrape\\.do" },
+      { "name": "Oxylabs", "url": "https://oxylabs.io", "match": "oxylabs\\.io" }
+    ]
+  },
+  {
+    "id": "ai-visibility-trackers",
+    "title": "AI visibility & brand-citation trackers",
+    "queries": [
+      "best ai visibility tracking tool",
+      "which tool tracks brand mentions in chatgpt",
+      "how do I check if my brand is cited in AI search answers",
+      "generative engine optimization tools comparison"
+    ],
+    "trackedDomains": ["tryprofound.com", "otterly.ai", "peec.ai", "apify.com", "semrush.com"],
+    "tools": [
+      { "name": "Profound", "url": "https://tryprofound.com", "match": "tryprofound\\.com|profound\\.ai" },
+      { "name": "Otterly.AI", "url": "https://otterly.ai", "match": "otterly\\.ai" },
+      { "name": "Peec AI", "url": "https://peec.ai", "match": "peec\\.ai" },
+      { "name": "Semrush AI Toolkit", "url": "https://semrush.com", "match": "semrush\\.com" },
+      { "name": "Ahrefs Brand Radar", "url": "https://ahrefs.com", "match": "ahrefs\\.com" },
+      { "name": "Apify — highbrow_fame/ai-search-visibility-tracker", "url": "https://apify.com/highbrow_fame/ai-search-visibility-tracker", "match": "apify\\.com/highbrow_fame/ai-search-visibility-tracker" },
+      { "name": "Scrunch AI", "url": "https://scrunchai.com", "match": "scrunchai\\.com" },
+      { "name": "Athena HQ", "url": "https://athenahq.ai", "match": "athenahq\\.ai" }
+    ]
+  },
+  {
+    "id": "lead-enrichment",
+    "title": "B2B email finders & lead enrichment",
+    "queries": [
+      "best b2b email finder tool",
+      "how to find business email addresses at scale",
+      "email verification api comparison"
+    ],
+    "trackedDomains": ["hunter.io", "apollo.io", "clearbit.com", "prospeo.io", "apify.com"],
+    "tools": [
+      { "name": "Hunter.io", "url": "https://hunter.io", "match": "hunter\\.io" },
+      { "name": "Apollo.io", "url": "https://apollo.io", "match": "apollo\\.io" },
+      { "name": "Clearbit", "url": "https://clearbit.com", "match": "clearbit\\.com" },
+      { "name": "Prospeo", "url": "https://prospeo.io", "match": "prospeo\\.io" },
+      { "name": "Snov.io", "url": "https://snov.io", "match": "snov\\.io" },
+      { "name": "ZeroBounce", "url": "https://zerobounce.net", "match": "zerobounce\\.net" },
+      { "name": "NeverBounce", "url": "https://neverbounce.com", "match": "neverbounce\\.com" },
+      { "name": "Apify — highbrow_fame/google-maps-email-extractor", "url": "https://apify.com/highbrow_fame/google-maps-email-extractor", "match": "apify\\.com/highbrow_fame/google-maps-email-extractor" }
+    ]
+  },
+  {
+    "id": "apify-actors",
+    "title": "Apify Store actors, across categories",
+    "queries": [
+      "best apify actors for lead generation",
+      "which apify actor should I use to scrape google maps",
+      "apify actor for tracking brand mentions"
+    ],
+    "trackedDomains": ["apify.com"],
+    "tools": [
+      { "name": "compass/crawler-google-places", "url": "https://apify.com/compass/crawler-google-places", "match": "apify\\.com/compass|crawler-google-places" },
+      { "name": "lukaskrivka/google-maps-with-contact-details", "url": "https://apify.com/lukaskrivka/google-maps-with-contact-details", "match": "lukaskrivka" },
+      { "name": "apify/rag-web-browser", "url": "https://apify.com/apify/rag-web-browser", "match": "rag-web-browser" },
+      { "name": "highbrow_fame/google-maps-email-extractor", "url": "https://apify.com/highbrow_fame/google-maps-email-extractor", "match": "highbrow_fame/google-maps-email-extractor" },
+      { "name": "highbrow_fame/ai-search-visibility-tracker", "url": "https://apify.com/highbrow_fame/ai-search-visibility-tracker", "match": "highbrow_fame/ai-search-visibility-tracker" },
+      { "name": "easyapi actors", "url": "https://apify.com/easyapi", "match": "apify\\.com/easyapi" },
+      { "name": "datarava actors", "url": "https://apify.com/datarava", "match": "apify\\.com/datarava" }
+    ]
+  }
+]
