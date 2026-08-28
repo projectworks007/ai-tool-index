@@ -17,6 +17,16 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DOCS = join(ROOT, 'docs');
 const WINDOW = 7;
 
+// A measurement that lands in data/ instead of data/daily/ is invisible to this build, so the
+// page would silently keep publishing an older window. That happened once on 2026-08-28 after a
+// path change, and nothing complained. Fail loudly instead.
+const stray = readdirSync(join(ROOT, 'data')).filter((f) => f.endsWith('.json'));
+if (stray.length) {
+  console.error(`HIBA: mérési fájl a data/ gyökerében, a data/daily/ helyett: ${stray.join(', ')}`);
+  console.error('Tedd át a data/daily/ alá, különben a kiadás nem látja.');
+  process.exit(1);
+}
+
 const files = readdirSync(join(ROOT, 'data', 'daily')).filter((f) => f.endsWith('.json')).sort();
 if (!files.length) { console.error('nincs napi adat'); process.exit(1); }
 const windowFiles = files.slice(-WINDOW);

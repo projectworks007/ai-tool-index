@@ -125,7 +125,7 @@ for (const cat of CATEGORIES) {
 
 if (!DRY) {
   out.totalCostUsd = Number(spend.toFixed(4));
-  mkdirSync(join(ROOT, 'data'), { recursive: true });
-  writeFileSync(join(ROOT, 'data', `${date}.json`), JSON.stringify(out, null, 2), 'utf8');
-  console.log(`\nmentve: data/${date}.json  (platformköltség $${spend.toFixed(4)})`);
+  mkdirSync(join(ROOT, 'data', 'daily'), { recursive: true });
+  writeFileSync(join(ROOT, 'data', 'daily', `${date}.json`), JSON.stringify(out, null, 2), 'utf8');
+  console.log(`\nmentve: data/daily/${date}.json  (platformköltség $${spend.toFixed(4)})`);
 }
