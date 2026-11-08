@@ -1,0 +1,747 @@
+{
+  "measuredAt": "2026-11-08T05:30:02.537Z",
+  "week": "2026-11-08",
+  "engine": "perplexity-agent",
+  "categories": [
+    {
+      "category": "google-maps-scrapers",
+      "title": "Google Maps scrapers",
+      "queries": [
+        "best google maps scraper",
+        "google maps scraper comparison",
+        "how to extract business emails from google maps",
+        "google maps lead generation tool with email finder",
+        "cheapest google maps data extraction api"
+      ],
+      "queryCount": 5,
+      "answered": 5,
+      "ranked": [
+        {
+          "name": "Lobstr",
+          "url": "https://lobstr.io",
+          "hits": 3
+        },
+        {
+          "name": "Outscraper",
+          "url": "https://outscraper.com",
+          "hits": 3
+        },
+        {
+          "name": "Scrap.io",
+          "url": "https://scrap.io",
+          "hits": 2
+        },
+        {
+          "name": "Bright Data",
+          "url": "https://brightdata.com",
+          "hits": 1
+        },
+        {
+          "name": "Apify — compass/crawler-google-places",
+          "url": "https://apify.com/compass/crawler-google-places",
+          "hits": 0
+        },
+        {
+          "name": "Apify — highbrow_fame/google-maps-email-extractor",
+          "url": "https://apify.com/highbrow_fame/google-maps-email-extractor",
+          "hits": 0
+        },
+        {
+          "name": "Apify — lukaskrivka/google-maps-with-contact-details",
+          "url": "https://apify.com/lukaskrivka/google-maps-with-contact-details",
+          "hits": 0
+        },
+        {
+          "name": "PhantomBuster",
+          "url": "https://phantombuster.com",
+          "hits": 0
+        }
+      ],
+      "perQuery": [
+        {
+          "query": "best google maps scraper",
+          "citations": 15,
+          "hits": [
+            "Outscraper",
+            "Scrap.io",
+            "Lobstr"
+          ],
+          "urls": [
+            "https://outscraper.com/best-google-maps-scrapers/",
+            "https://apify.com/alternatives/outscraper-alternative",
+            "https://aimultiple.com/google-maps-scraper",
+            "https://leadity.io/blog/best-google-maps-scrapers-2026/",
+            "https://scrap.io/outscraper-vs-apify",
+            "https://useleadtrapper.com/articles/best-google-maps-scraper/",
+            "https://hubertino.com/compare/google-maps-scrapers",
+            "https://blog.apify.com/best-google-maps-scrapers/",
+            "https://nodemaven.com/blog/google-maps-scraping-tools/",
+            "https://scrapebadger.com/blog/best-google-maps-scraper-apis-in-2026-tested-compared-and-ranked",
+            "https://gmapsextractor.com/articles/best-google-maps-scraper-in-2026",
+            "https://scavio.dev/blog/best-google-maps-scrapers-2026",
+            "https://apify.com/scraperlink/google-maps-scraper",
+            "https://www.lobstr.io/blog/best-google-maps-scrapers",
+            "https://www.capterra.com/p/228041/Google-Maps-scraper/alternatives/"
+          ]
+        },
+        {
+          "query": "google maps scraper comparison",
+          "citations": 15,
+          "hits": [
+            "Scrap.io",
+            "Lobstr",
+            "Bright Data"
+          ],
+          "urls": [
+            "https://aimultiple.com/google-maps-scraper",
+            "https://useleadtrapper.com/articles/best-google-maps-scraper/",
+            "https://leadity.io/blog/best-google-maps-scrapers-2026/",
+            "https://scavio.dev/blog/best-google-maps-scrapers-2026",
+            "https://flybyapis.com/blog/best-google-maps-scraper/",
+            "https://brightdata.com/blog/web-data/best-google-maps-scrapers",
+            "https://scrapebadger.com/blog/best-google-maps-scraper-apis-in-2026-tested-compared-and-ranked",
+            "https://flybyapis.com/blog/google-maps-scraper-chrome-extension/",
+            "https://vonsel.com/blog/compare/best-google-maps-scrapers-compared",
+            "https://tomba.io/blog/google-maps-data-extractor-pricing-reviews-pros-and-cons",
+            "https://proxyway.com/best/google-maps-scrapers",
+            "https://www.lobstr.io/blog/best-google-maps-reviews-scrapers",
+            "https://scrap.io/google-maps-scraper-github-open-source-guide",
+            "https://hubertino.com/compare/google-maps-scrapers",
+            "https://dev.to/aurelix_solutions/google-maps-scrapers-on-apify-compared-price-per-1000-places-emails-and-limits-2d4"
+          ]
+        },
+        {
+          "query": "how to extract business emails from google maps",
+          "citations": 15,
+          "hits": [
+            "Outscraper"
+          ],
+          "urls": [
+            "https://outscraper.com/google-maps-scraper/",
+            "https://outscraper.com/vi/how-to-scrape-google-maps/",
+            "https://outscraper.com/emails-scraper/",
+            "https://outscraper.com/google-maps-scraping-getting-started/",
+            "https://outscraper.com/es/extract-emails-from-google-maps/",
+            "https://outscraper.com/best-google-maps-scrapers/",
+            "https://outscraper.com/fr/numbers-email-social-google-maps/",
+            "https://outscraper.com/faq/",
+            "https://outscraper.com/google-maps-scraper-data/",
+            "https://outscraper.com/enrichment-services/",
+            "https://outscraper.com/how-to-find-business-emails-from-google-maps-at-scale/",
+            "https://outscraper.com/google-maps-scraping-ultimate-guide/",
+            "https://outscraper.com/complete-guide-google-maps-scraping/",
+            "https://outscraper.com/google-maps-scraper-v2/",
+            "https://outscraper.com/home-v3-1/"
+          ]
+        },
+        {
+          "query": "google maps lead generation tool with email finder",
+          "citations": 15,
+          "hits": [],
+          "urls": [
+            "https://apify.com/optirefine/google-maps-leads-email-finder",
+            "https://github.com/cporter202/google-maps-scraping-apis/blob/main/catalog/README.md",
+            "https://chromewebstore.google.com/detail/g-map-leads-collector/gcjmciagfohjeloikkockcgabacfikbn",
+            "https://chromewebstore.google.com/detail/business-email-social-med/popfhginplpoeialkckjhmjiknecmbkp",
+            "https://apify.com/korado_labs/google-maps-emails/input-schema",
+            "https://apify.com/aolmo/google-maps-enrich/api/mcp",
+            "https://hasdata.com/scrapers/google-maps",
+            "https://pkg.go.dev/github.com/gosom/google-maps-scraper",
+            "https://apify.com/aolmo/google-maps-enrich/input-schema",
+            "https://chromewebstore.google.com/detail/mapcontact-%E2%80%93-google-maps/nddeikgopgfjokaelagigcagijnjcbbl",
+            "https://apify.com/noniner/google-maps-lead-enricher/examples",
+            "https://workinsiders.com/tools/gmaps-lead-finder/",
+            "https://apify.com/xmolodtsov/google-maps-scraper/pricing",
+            "https://apify.com/plainrows/google-maps-email-extractor",
+            "https://chromewebstore.google.com/detail/google-maps-lead-finder-a/kpagolangecppljjffkcgemblkggcflm"
+          ]
+        },
+        {
+          "query": "cheapest google maps data extraction api",
+          "citations": 15,
+          "hits": [
+            "Outscraper",
+            "Lobstr"
+          ],
+          "urls": [
+            "https://outscraper.com/pricing/",
+            "https://outscraper.com/prices/",
+            "https://outscraper.com/google-maps-scraper/",
+            "https://outscraper.com/outscraper-pricing-explained/",
+            "https://outscraper.com/best-google-maps-scrapers/",
+            "https://outscraper.com/how-to-scrape-google-maps/",
+            "https://scrape.do/blog/best-google-maps-api/",
+            "https://www.lobstr.io/blog/google-maps-scraper-api",
+            "https://outscraper.com/google-maps-scraper-pricing-enrichment-cost/",
+            "https://outscraper.com/google-maps-scraper-v2/",
+            "https://apify.com/serpdata/google-maps-scraper/api",
+            "https://apify.com/litescrape/google-maps",
+            "https://companyurlfinder.com/blogs/best-google-maps-apis/",
+            "https://outscraper.com/google-maps-scraper-data/",
+            "https://apify.com/alfalfa/google-maps-scraper"
+          ]
+        }
+      ],
+      "runId": "nQk4iRK4rXJuCxnKy",
+      "costUsd": 0.006219228654041887
+    },
+    {
+      "category": "web-scraping-apis",
+      "title": "General web scraping APIs",
+      "queries": [
+        "best web scraping api 2026",
+        "web scraping api comparison",
+        "which scraping api handles javascript sites best",
+        "cheapest web scraping api for small projects"
+      ],
+      "queryCount": 4,
+      "answered": 4,
+      "ranked": [
+        {
+          "name": "Bright Data",
+          "url": "https://brightdata.com",
+          "hits": 2
+        },
+        {
+          "name": "ScrapingBee",
+          "url": "https://scrapingbee.com",
+          "hits": 2
+        },
+        {
+          "name": "Zyte",
+          "url": "https://zyte.com",
+          "hits": 1
+        },
+        {
+          "name": "Apify",
+          "url": "https://apify.com",
+          "hits": 0
+        },
+        {
+          "name": "Firecrawl",
+          "url": "https://firecrawl.dev",
+          "hits": 0
+        },
+        {
+          "name": "Oxylabs",
+          "url": "https://oxylabs.io",
+          "hits": 0
+        },
+        {
+          "name": "Scrape.do",
+          "url": "https://scrape.do",
+          "hits": 0
+        },
+        {
+          "name": "Scrapingdog",
+          "url": "https://scrapingdog.com",
+          "hits": 0
+        }
+      ],
+      "perQuery": [
+        {
+          "query": "best web scraping api 2026",
+          "citations": 15,
+          "hits": [
+            "Bright Data"
+          ],
+          "urls": [
+            "https://datacircle.dev/best-web-scraping-api",
+            "https://www.zenrows.com/blog/best-web-scraping-api-for-real-time-data",
+            "https://github.com/scraping-test/web-scraping-api-2026/blob/main/README.md",
+            "https://www.scraperapi.com/web-scraping/tools/",
+            "https://usestring.ai/comparisons/best-web-scraping-apis",
+            "https://brightdata.com/blog/web-data/best-web-scraping-apis",
+            "https://www.techradar.com/pro/software-services/best-scraper-api-best-web-scraping-api-of-year",
+            "https://ujeebu.com/best-web-scraping-apis",
+            "https://webscraping.cc/blog/best-web-scraping-api/",
+            "https://anakin.io/blog/cheapest-reliable-scraping-api-high-volume",
+            "https://pagecrawl.io/blog/best-web-scraping-apis-2026",
+            "https://marketintelligencetools.com/rankings/web-scraping-tools/",
+            "https://sociavault.com/blog/best-web-scraping-apis",
+            "https://www.zenrows.com/blog/best-web-scraping-apis-benchmarked",
+            "https://www.citehawk.com/leaderboards/editions/2026-11/web-scraping-apis/json"
+          ]
+        },
+        {
+          "query": "web scraping api comparison",
+          "citations": 15,
+          "hits": [
+            "Bright Data",
+            "Zyte"
+          ],
+          "urls": [
+            "https://brightdata.com/blog/web-data/best-web-scraping-apis",
+            "https://www.scraperapi.com/web-scraping/tools/",
+            "https://datacircle.dev/best-web-scraping-api",
+            "https://www.zyte.com/learn/best-web-scraping-services/",
+            "https://www.zenrows.com/blog/best-web-scraping-api-for-real-time-data",
+            "https://github.com/scraping-test/web-scraping-api-2026/blob/main/README.md",
+            "https://www.zyte.com/blog/best-web-scraping-apis-2026/",
+            "https://www.citehawk.com/leaderboards/web-scraping-apis",
+            "https://usestring.ai/comparisons/best-web-scraping-apis",
+            "https://www.citehawk.com/leaderboards/web-scraping-apis/zyte",
+            "https://www.scraperapi.com/blog/bright-data-alternatives/",
+            "https://github.com/nwbo3403/web-scraping-benchmarks/blob/main/README.md",
+            "https://github.com/qrswzvuh/web-scraping-comparison",
+            "https://github.com/scraping-test/web-scraping-api-2026",
+            "https://www.zenrows.com/blog/best-web-scraping-api-for-ai-agents"
+          ]
+        },
+        {
+          "query": "which scraping api handles javascript sites best",
+          "citations": 15,
+          "hits": [
+            "ScrapingBee"
+          ],
+          "urls": [
+            "https://www.zenrows.com/blog/best-web-scraping-api-for-real-time-data",
+            "https://www.scraperapi.com/comparisons/brightdata-vs-zenrows/",
+            "https://www.web-scrapers.com/reviews/scrapingbee/",
+            "https://crawlbase.com/blog/scrapingbee-alternative-for-web-scraping/",
+            "https://www.context.dev/blog/best-web-scraping-apis-for-javascript-heavy-sites-2026",
+            "https://www.web-scrapers.com/comparisons/bright-data-alternatives/",
+            "https://www.context.dev/blog/web-scraping-api-benchmark-for-ai-agents",
+            "https://scrapegrounds.com/resources/scrapingbee",
+            "https://www.scrapingbee.com/crawlbase-alternative/",
+            "https://www.scrapingbee.com/web-scraping-api/",
+            "https://www.context.dev/blog/best-tools-for-scraping-javascript-rendered-websites",
+            "https://screenshotone.com/blog/best-scraping-apis/",
+            "https://www.zenrows.com/blog/tag/comparisons",
+            "https://www.zenrows.com/blog/best-bright-data-alternative-for-self-service-scraping",
+            "https://www.citehawk.com/leaderboards/web-scraping-apis/zenrows"
+          ]
+        },
+        {
+          "query": "cheapest web scraping api for small projects",
+          "citations": 15,
+          "hits": [
+            "ScrapingBee"
+          ],
+          "urls": [
+            "https://www.scrapingbee.com/pricing/",
+            "https://www.scraperapi.com/docs/ai/pricing/",
+            "https://www.scraperapi.com/pricing/",
+            "https://www.scraperapi.com/web-scraping/tools/",
+            "https://scraperapi.com/pricing.md",
+            "https://www.scrapingbee.com/",
+            "https://www.scraperapi.com/web-scraping/services/",
+            "https://www.scraperapi.com/solutions/scraping-api/",
+            "https://www.scrapingbee.com/web-scraping-api/",
+            "https://datacircle.dev/web-scraping-api-pricing",
+            "https://scrapegrounds.com/resources/scrapingbee",
+            "https://www.capterra.com/p/195060/ScrapingBee/pricing/",
+            "https://www.web-scrapers.com/reviews/scrapingbee/",
+            "https://datacircle.dev/best-web-scraping-api",
+            "https://clawengine.ai/cheapest-web-scraping-api"
+          ]
+        }
+      ],
+      "runId": "7Pdu9BDyMNSzbGL97",
+      "costUsd": 0.002546378678003947
+    },
+    {
+      "category": "ai-visibility-trackers",
+      "title": "AI visibility & brand-citation trackers",
+      "queries": [
+        "best ai visibility tracking tool",
+        "which tool tracks brand mentions in chatgpt",
+        "how do I check if my brand is cited in AI search answers",
+        "generative engine optimization tools comparison"
+      ],
+      "queryCount": 4,
+      "answered": 4,
+      "ranked": [
+        {
+          "name": "Semrush AI Toolkit",
+          "url": "https://semrush.com",
+          "hits": 3
+        },
+        {
+          "name": "Ahrefs Brand Radar",
+          "url": "https://ahrefs.com",
+          "hits": 2
+        },
+        {
+          "name": "Otterly.AI",
+          "url": "https://otterly.ai",
+          "hits": 1
+        },
+        {
+          "name": "Apify — highbrow_fame/ai-search-visibility-tracker",
+          "url": "https://apify.com/highbrow_fame/ai-search-visibility-tracker",
+          "hits": 0
+        },
+        {
+          "name": "Athena HQ",
+          "url": "https://athenahq.ai",
+          "hits": 0
+        },
+        {
+          "name": "Peec AI",
+          "url": "https://peec.ai",
+          "hits": 0
+        },
+        {
+          "name": "Profound",
+          "url": "https://tryprofound.com",
+          "hits": 0
+        },
+        {
+          "name": "Scrunch AI",
+          "url": "https://scrunchai.com",
+          "hits": 0
+        }
+      ],
+      "perQuery": [
+        {
+          "query": "best ai visibility tracking tool",
+          "citations": 15,
+          "hits": [
+            "Semrush AI Toolkit"
+          ],
+          "urls": [
+            "https://zapier.com/blog/best-ai-visibility-tool/",
+            "https://rankscale.ai/",
+            "https://www.seo.com/ai/best-ai-visibility-tools/",
+            "https://www.flint.com/articles/best-ai-visibility-tracking-tools",
+            "https://trackedby.ai/",
+            "https://www.semrush.com/blog/best-ai-visibility-tools/",
+            "https://www.01net.com/en/seo/ai-visibility-tools/",
+            "https://www.mentionlytics.com/blog/best-ai-visibility-tracking-tools/",
+            "https://amplitude.com/compare/best-ai-visibility-monitoring-tools",
+            "https://franklyreport.com/insights/best-ai-visibility-tools",
+            "https://www.accessibilitychecker.org/guides/best-ai-visibility-tools/",
+            "https://www.sona.com/blog/best-ai-search-visibility-tools/",
+            "https://www.searchable.com/blog/best-ai-overview-tracking-tools",
+            "https://kime.ai/blog/best-ai-visibility-tools",
+            "https://www.semrush.com/blog/ai-visibility-tracking-tools-for-agencies/"
+          ]
+        },
+        {
+          "query": "which tool tracks brand mentions in chatgpt",
+          "citations": 15,
+          "hits": [
+            "Otterly.AI",
+            "Ahrefs Brand Radar"
+          ],
+          "urls": [
+            "https://www.hubspot.com/products/aeo/ai-visibility",
+            "https://www.sona.com/blog/agency-or-tool-to-track-brand-mentions-in-chatgpt-and-perplexity/",
+            "https://www.searchable.com/blog/track-chatgpt-mentions",
+            "https://apify.com/meridianlabs/ai-visibility-tracker",
+            "https://ahrefs.com/ai-visibility-checker",
+            "https://www.sona.com/blog/6-tools-to-track-ai-search-visibility-in-chatgpt-and-gemini/",
+            "https://www.gumloop.com/blog/brand-mentions-tool",
+            "https://blog.hubspot.com/marketing/best-ai-visibility-tools",
+            "https://blog.hubspot.com/marketing/llm-visibility-tools",
+            "https://www.usatoday.com/press-release/story/55732/aeofast-launches-free-ai-visibility-checker-to-help-businesses-measure-their-presence-in-ai-answers/",
+            "https://otterly.ai/",
+            "https://www.01net.com/en/seo/ai-visibility-tools/",
+            "https://www.surva.ai/blog/tools-to-track-brand-mentions-across-ai-platforms-look-beyond-one-visibility-score",
+            "https://siftly.ai/features/chatgpt-visibility",
+            "https://ahrefs.com/aeo/track-ai-visibility"
+          ]
+        },
+        {
+          "query": "how do I check if my brand is cited in AI search answers",
+          "citations": 15,
+          "hits": [
+            "Semrush AI Toolkit",
+            "Ahrefs Brand Radar"
+          ],
+          "urls": [
+            "https://ahrefs.com/ai-overviews-tracker",
+            "https://www.sona.com/blog/6-tools-to-track-ai-search-visibility-in-chatgpt-and-gemini/",
+            "https://dev.to/juanauriti/7-open-source-ai-visibility-trackers-launched-on-hn-this-year-heres-what-each-one-actually-does-1bic",
+            "https://www.semrush.com/blog/best-ai-visibility-tools/",
+            "https://www.gotcatalyst.com/ai-visibility/best-ai-visibility-tools",
+            "https://www.searchable.com/blog/best-ai-overview-tracking-tools",
+            "https://www.seo.com/ai/best-ai-visibility-tools/",
+            "https://www.semrush.com/blog/measure-ai-visibility/",
+            "https://www.01net.com/en/seo/ai-visibility-tools/",
+            "https://www.rank.ai/guides/seo/ai-seo-tools",
+            "https://siftly.ai/blog/how-to-track-your-company-s-visibility-across-ai-search",
+            "https://blog.hubspot.com/marketing/ai-search-industry-benchmarks",
+            "https://zapier.com/blog/best-ai-visibility-tool/",
+            "https://www.lacleo.ai/blog/best-ai-visibility-tools",
+            "https://siftly.ai/blog/7-most-user-friendly-ai-search-visibility-tracking-tools"
+          ]
+        },
+        {
+          "query": "generative engine optimization tools comparison",
+          "citations": 15,
+          "hits": [
+            "Semrush AI Toolkit"
+          ],
+          "urls": [
+            "https://www.semrush.com/solutions/ai-visibility/",
+            "https://www.sona.com/blog/6-tools-to-track-ai-search-visibility-in-chatgpt-and-gemini/",
+            "https://prismic.io/blog/best-geo-tools",
+            "https://www.semrush.com/blog/measure-ai-visibility/",
+            "https://www.wix.com/studio/ai-search-lab/best-tools-to-track-brand-visibility-in-ai-search",
+            "https://www.semrush.com/blog/ai-visibility-tracking-tools-for-agencies/",
+            "https://www.semrush.com/free-tools/ai-search-visibility-checker/",
+            "https://www.gtm8020.com/blog/best-geo-tools",
+            "https://agentvisibilitytools.com/tools/",
+            "https://brandmentions.com/blog/best-geo-tools/",
+            "https://screpy.com/feature/ai-visibility/",
+            "https://www.geosoftwarerankings.com/rankings/geo-tools/",
+            "https://www.elmohq.com/blog/best-geo-tools",
+            "https://www.capterra.com/resources/how-to-choose-ai-search-visibility-tools/",
+            "https://www.semrush.com/kb/1626-ai-visibility-features"
+          ]
+        }
+      ],
+      "runId": "ZSXJ21oFaRNrfjhDI",
+      "costUsd": 0.00057502063432667
+    },
+    {
+      "category": "lead-enrichment",
+      "title": "B2B email finders & lead enrichment",
+      "queries": [
+        "best b2b email finder tool",
+        "how to find business email addresses at scale",
+        "email verification api comparison"
+      ],
+      "queryCount": 3,
+      "answered": 3,
+      "ranked": [
+        {
+          "name": "Prospeo",
+          "url": "https://prospeo.io",
+          "hits": 2
+        },
+        {
+          "name": "Snov.io",
+          "url": "https://snov.io",
+          "hits": 1
+        },
+        {
+          "name": "Apify — highbrow_fame/google-maps-email-extractor",
+          "url": "https://apify.com/highbrow_fame/google-maps-email-extractor",
+          "hits": 0
+        },
+        {
+          "name": "Apollo.io",
+          "url": "https://apollo.io",
+          "hits": 0
+        },
+        {
+          "name": "Clearbit",
+          "url": "https://clearbit.com",
+          "hits": 0
+        },
+        {
+          "name": "Hunter.io",
+          "url": "https://hunter.io",
+          "hits": 0
+        },
+        {
+          "name": "NeverBounce",
+          "url": "https://neverbounce.com",
+          "hits": 0
+        },
+        {
+          "name": "ZeroBounce",
+          "url": "https://zerobounce.net",
+          "hits": 0
+        }
+      ],
+      "perQuery": [
+        {
+          "query": "best b2b email finder tool",
+          "citations": 15,
+          "hits": [
+            "Prospeo"
+          ],
+          "urls": [
+            "https://fullenrich.com/content/b2b-email-list-providers",
+            "https://www.saffronedge.com/blog/email-finder-tools/",
+            "https://www.rox.com/articles/contact-and-email-finder-tools",
+            "https://www.smartlead.ai/blog/top-email-finding-tools",
+            "https://grouglobal.com/blog/best-email-finder-tools",
+            "https://www.supered.io/blog/email-finder-tools/",
+            "https://www.therankmasters.com/insights/contact-data/best-b2b-email-finder-tools",
+            "https://fullenrich.com/tools/email-finder-tools",
+            "https://www.smartlead.ai/blog/business-email-finder",
+            "https://www.spotsaas.com/blog/best-email-finder-tools",
+            "https://anymailfinder.com/blog/best-email-finder-tools",
+            "https://www.salesforge.ai/blog/email-finder-tools",
+            "https://www.guideflow.com/blog/email-finder-tools",
+            "https://prospeo.io/s/email-lookup-tools",
+            "https://www.therankmasters.com/insights/contact-data/best-email-finder-tools"
+          ]
+        },
+        {
+          "query": "how to find business email addresses at scale",
+          "citations": 15,
+          "hits": [
+            "Prospeo",
+            "Snov.io"
+          ],
+          "urls": [
+            "https://github.com/automationbyexperts/apis-scraping-geracao-de-leads/blob/main/groups/email-finders.md",
+            "https://www.salesforce.com/marketing/lead-generation-guide/best-lead-generation-tools/?bc=OTH",
+            "https://prospeo.io/s/how-to-find-business-email-addresses",
+            "https://aeroleads.com/uploads",
+            "https://www.cleverly.co/blog/find-company-email-addresses",
+            "https://github.com/automationbyexperts/lead-generation-scraping-apis/blob/main/README.md",
+            "https://www.lemlist.com/blog/find-someones-email-b2b",
+            "https://snov.io/email-finder?ref=eightception.com",
+            "https://www.zeliq.com/blog/find-business-email-addresses",
+            "https://leadpure.co/products/finder",
+            "https://clearout.io/blog/email-finder-tools/",
+            "https://www.f6s.com/software/category/bulk-email-finder",
+            "https://apify.com/datagleaner/website-contact-details-scraper",
+            "https://www.surfe.com/blog/find-business-email-address",
+            "https://tomba.io/blog/how-to-search-for-email-addresses"
+          ]
+        },
+        {
+          "query": "email verification api comparison",
+          "citations": 15,
+          "hits": [],
+          "urls": [
+            "https://datacircle.dev/best-email-verification-api",
+            "https://datacircle.dev/best-email-api",
+            "https://datacircle.dev/email-verification-api-pricing",
+            "https://emailvalidation.io/guides/best-email-validation-apis/",
+            "https://datacircle.dev/validate-email-apis/mailinput/free",
+            "https://datacircle.dev/validate-email-apis/findleademails/free",
+            "https://buttondown.com/comparison-guides/email-verification-apis",
+            "https://datacircle.dev/gtm-apis/contact/email",
+            "https://github.com/james-sib/email-verification-benchmark",
+            "https://datacircle.dev/validate-email-apis/mailcheck/free",
+            "https://datacircle.dev/validate-email-apis/apilayer/free-free",
+            "https://resources.listmint.io/blog/best-email-verification-api",
+            "https://mailbeam.dev/blog/email-verification-api-free",
+            "https://www.usebouncer.com/best-email-list-verification-platforms/",
+            "https://geekflare.com/guides/email-verification-api/"
+          ]
+        }
+      ],
+      "runId": "Lma27fNaXTAnvJyNS",
+      "costUsd": 0.0005266966401868397
+    },
+    {
+      "category": "apify-actors",
+      "title": "Apify Store actors, across categories",
+      "queries": [
+        "best apify actors for lead generation",
+        "which apify actor should I use to scrape google maps",
+        "apify actor for tracking brand mentions"
+      ],
+      "queryCount": 3,
+      "answered": 3,
+      "ranked": [
+        {
+          "name": "apify/rag-web-browser",
+          "url": "https://apify.com/apify/rag-web-browser",
+          "hits": 0
+        },
+        {
+          "name": "compass/crawler-google-places",
+          "url": "https://apify.com/compass/crawler-google-places",
+          "hits": 0
+        },
+        {
+          "name": "datarava actors",
+          "url": "https://apify.com/datarava",
+          "hits": 0
+        },
+        {
+          "name": "easyapi actors",
+          "url": "https://apify.com/easyapi",
+          "hits": 0
+        },
+        {
+          "name": "highbrow_fame/ai-search-visibility-tracker",
+          "url": "https://apify.com/highbrow_fame/ai-search-visibility-tracker",
+          "hits": 0
+        },
+        {
+          "name": "highbrow_fame/google-maps-email-extractor",
+          "url": "https://apify.com/highbrow_fame/google-maps-email-extractor",
+          "hits": 0
+        },
+        {
+          "name": "lukaskrivka/google-maps-with-contact-details",
+          "url": "https://apify.com/lukaskrivka/google-maps-with-contact-details",
+          "hits": 0
+        }
+      ],
+      "perQuery": [
+        {
+          "query": "best apify actors for lead generation",
+          "citations": 15,
+          "hits": [],
+          "urls": [
+            "https://apify.com/apexdata/google-maps-leads-scraper",
+            "https://apify.com/bgfc97/google-maps-leads-scraper",
+            "https://apify.com/expensive_kapi/google-maps-leads-actor/reviews",
+            "https://apify.com/snow_leo_data/google-maps-scraper",
+            "https://apify.com/scrapeify/google-maps-scraper",
+            "https://apify.com/code-node-tools/google-maps-scraper",
+            "https://apify.com/b2b_lead_generation",
+            "https://apify.com/data_minds/google-maps-leads-scraper",
+            "https://apify.com/googleapi/google-maps-business-leads-scraper",
+            "https://apify.com/expensive_kapi/google-maps-leads-actor",
+            "https://apify.com/cheapapi/google-maps-scraper-plus",
+            "https://apify.com/scrapeai/google-maps-leads-scraper",
+            "https://apify.com/pnda/google-maps-scraper",
+            "https://apify.com/kazaz_organization/my-actor-1",
+            "https://apify.com/myagizm/google-maps-scraper"
+          ]
+        },
+        {
+          "query": "which apify actor should I use to scrape google maps",
+          "citations": 15,
+          "hits": [],
+          "urls": [
+            "https://apify.com/pimperp/apify-google-maps-scraper",
+            "https://apify.com/socialdataapi/google-maps-scraper",
+            "https://apify.com/datapilot/google-maps-scraper",
+            "https://apify.com/atomus/google-maps-scraper",
+            "https://apify.com/trusted_tech_spot/fast-google-maps-scraper",
+            "https://apify.com/apificasion/google-maps-scraped",
+            "https://apify.com/s_actors/google-maps-scraper",
+            "https://apify.com/simple.actor/google-maps",
+            "https://apify.com/deepmine/google-maps-scraper",
+            "https://apify.com/leadstrategus/gmap-scraper",
+            "https://apify.com/alfalfa/google-maps-scraper",
+            "https://apify.com/serpdata/google-maps-scraper",
+            "https://apify.com/forceful_grossular/google-maps-places-scraper",
+            "https://apify.com/frontix/my-actor",
+            "https://apify.com/techforce.global/google-maps-scraper"
+          ]
+        },
+        {
+          "query": "apify actor for tracking brand mentions",
+          "citations": 15,
+          "hits": [],
+          "urls": [
+            "https://apify.com/zaiq/brand-mention-monitor",
+            "https://apify.com/arched_friend/brand-mention-monitor",
+            "https://apify.com/sndzcc/brand-mentions-radar",
+            "https://apify.com/alpine-data/ai-brand-visibility",
+            "https://blog.apify.com/ai-brand-monitoring/",
+            "https://apify.com/ahmad_mahameed/brand-mentions-monitor",
+            "https://apify.com/deepmine/meta-brand-mention-monitor",
+            "https://apify.com/offerastudio/news-brand-mentions-monitor",
+            "https://apify.com/second_coming/brand-mention-monitor",
+            "https://apify.com/rt-solutions/ai-brand-visibility-tracker",
+            "https://apify.com/winningsolutions/llm-mentions-index/api",
+            "https://apify.com/actor-forge/ai-brand-visibility",
+            "https://apify.com/codeclouds/brand-mention-news-monitor",
+            "https://apify.com/scrapemint/brand-mention-monitor",
+            "https://apify.com/santhej/brand-mention-monitor"
+          ]
+        }
+      ],
+      "runId": "fuBuoERudBIiCQRJL",
+      "costUsd": 0.0005232319817145666
+    }
+  ],
+  "totalCostUsd": 0.0104
+}
