@@ -29,7 +29,11 @@ if (stray.length) {
 
 const files = readdirSync(join(ROOT, 'data', 'daily')).filter((f) => f.endsWith('.json')).sort();
 if (!files.length) { console.error('nincs napi adat'); process.exit(1); }
-const windowFiles = files.slice(-WINDOW);
+// Only measurements of the last 7 days count: with one measurement a week (since 2026-11-16) the last
+// seven FILES would reach back seven weeks.
+const newestDay = files.at(-1).replace('.json', '');
+const cutoffDay = new Date(Date.parse(newestDay) - 6 * 86400000).toISOString().slice(0, 10);
+const windowFiles = files.filter((f) => f.replace('.json', '') >= cutoffDay).slice(-WINDOW);
 const days = windowFiles.map((f) => JSON.parse(readFileSync(join(ROOT, 'data', 'daily', f), 'utf8')));
 const week = windowFiles.at(-1).replace('.json', '');
 
@@ -86,8 +90,8 @@ footer{margin-top:3.5rem;padding-top:1.25rem;border-top:1px solid var(--line);co
 
 const section = (c) => `
 <h2 id="${esc(c.category)}">${esc(c.title)}</h2>
-<p class="q">${c.answered} answers collected over ${c.samples} daily measurement${c.samples === 1 ? '' : 's'}.
-Questions asked each day: ${c.queries.map((q) => `<code>${esc(q)}</code>`).join(' · ')}</p>
+<p class="q">${c.answered} answers collected over ${c.samples} measurement${c.samples === 1 ? '' : 's'}.
+Questions asked each time: ${c.queries.map((q) => `<code>${esc(q)}</code>`).join(' · ')}</p>
 <div class="overflow"><table>
 <thead><tr><th>Tool</th><th class="n">Cited in</th></tr></thead>
 <tbody>
@@ -98,23 +102,24 @@ const page = `<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Tool Index — which tools AI assistants actually recommend</title>
-<meta name="description" content="A weekly, reproducible measurement of which tools AI assistants cite when asked which one to use. Measured daily, published weekly, raw data included.">
+<meta name="description" content="A weekly, reproducible measurement of which tools AI assistants cite when asked which one to use. Measured and published weekly, raw data included.">
 <style>${CSS}</style>
 </head><body><main>
 
 <h1>AI Tool Index</h1>
-<p class="sub">Which tools do AI assistants actually recommend? Measured every day, published
-weekly, raw answers included. Edition of <strong>${esc(week)}</strong>${days.length > 1 ? `, covering ${days.length} daily measurements` : ''}.</p>
+<p class="sub">Which tools do AI assistants actually recommend? Measured and published
+weekly, raw answers included. Edition of <strong>${esc(week)}</strong>${days.length > 1 ? `, covering ${days.length} measurements` : ''}.</p>
 
-<p class="lede">The same fixed set of buyer questions goes to an AI assistant every day, and we
+<p class="lede">The same fixed set of buyer questions goes to an AI assistant once a week, and we
 record which tools its answer <em>cites</em> — not which ones rank on Google, and not which ones
 pay for placement. A tool scores one point per answer that linked to it. Nothing is weighted and
 no model judges the ranking: a link either appeared or it did not.</p>
 
-<p class="note"><strong>Why daily measurements and a weekly number.</strong> On 28 August 2026 the
-same questions were run twice, a few hours apart. Four of six tools moved, and the category leader
-swapped. One snapshot is noise dressed up as a ranking, so the published figure pools a week of
-daily answers instead.</p>
+<p class="note"><strong>Why the numbers move.</strong> On 28 August 2026 the same questions were
+run twice, a few hours apart. Four of six tools moved, and the category leader swapped. Until
+11 November 2026 the published figure pooled a week of daily answers; since 16 November 2026 it is
+one measurement a week, so read a single edition as a snapshot and follow the trend across
+editions.</p>
 
 <p class="note"><strong>Disclosure.</strong> This index is produced by the maintainer of two of the
 tools listed below, using one of them
@@ -125,13 +130,13 @@ published so you can re-run the whole thing and check.</p>
 ${cats.map(section).join('\n')}
 
 <h2>Method</h2>
-<p>Engine: Perplexity (agent mode), one sample per question per day, US market, English.
+<p>Engine: Perplexity (agent mode), one sample per question per measurement, US market, English.
 Window: ${days.length} day${days.length === 1 ? '' : 's'} ending ${esc(week)}. Platform cost of this
 edition: $${totalCost.toFixed(4)}.</p>
 <ul>
 <li>The question set is fixed in <a href="https://github.com/projectworks007/ai-tool-index/blob/main/categories.json"><code>categories.json</code></a> and changes between editions only, never within one.</li>
 <li>A tool matches when a cited URL matches its published pattern. Matching is a plain regular expression, not a model judgement.</li>
-<li>Every day's raw answers and citation lists are committed under <a href="https://github.com/projectworks007/ai-tool-index/tree/main/data/daily"><code>data/daily/</code></a>.</li>
+<li>Every measurement's raw answers and citation lists are committed under <a href="https://github.com/projectworks007/ai-tool-index/tree/main/data/daily"><code>data/daily/</code></a>.</li>
 <li>One engine, for now. The series is the point; a single day is not.</li>
 </ul>
 <p><strong>What this does not measure:</strong> quality, price, reliability, or whether a tool is
@@ -139,7 +144,7 @@ right for you. It measures visibility inside AI answers, which is a different th
 knowing precisely because it is different.</p>
 
 <footer>
-Daily data: <a href="https://github.com/projectworks007/ai-tool-index/tree/main/data/daily">${files.length} measurement${files.length === 1 ? '' : 's'}</a> ·
+Raw data: <a href="https://github.com/projectworks007/ai-tool-index/tree/main/data/daily">${files.length} measurement${files.length === 1 ? '' : 's'}</a> ·
 Source and method: <a href="https://github.com/projectworks007/ai-tool-index">github.com/projectworks007/ai-tool-index</a> · maintained by yestrue
 </footer>
 </main></body></html>`;

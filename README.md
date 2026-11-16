@@ -1,6 +1,6 @@
 # AI Tool Index
 
-**Which tools do AI assistants actually recommend?** Measured **every day**, published weekly,
+**Which tools do AI assistants actually recommend?** Measured and published **weekly**,
 with the raw answers included in every edition.
 
 📊 **[Read the current edition →](https://projectworks007.github.io/ai-tool-index/)**
@@ -9,8 +9,8 @@ with the raw answers included in every edition.
 
 ## What this is
 
-Every day a fixed set of buyer questions goes to an AI assistant, and we record which tools its
-answer **cites**. The weekly edition pools those daily answers. Not which tools rank on Google. Not which ones pay for placement. Which ones the
+Once a week a fixed set of buyer questions goes to an AI assistant, and we record which tools its
+answer **cites**. Not which tools rank on Google. Not which ones pay for placement. Which ones the
 model actually pointed at when somebody asked what to use.
 
 A tool scores one point per question whose answer linked to it. Nothing is weighted, and no model
@@ -43,25 +43,23 @@ can re-run it.
 
 ```bash
 npm i -g apify-cli && apify login      # you need your own Apify account
-node scripts/measure.mjs               # one day's run, writes data/daily/YYYY-MM-DD.json
-node scripts/build.mjs                 # pools the last 7 days into docs/index.html
+node scripts/measure.mjs               # one measurement, writes data/daily/YYYY-MM-DD.json
+node scripts/build.mjs                 # builds docs/index.html from the last 7 days
 ```
 
 The measurement runs locally and reads your Apify token from `~/.apify/auth.json`. It is never
 uploaded anywhere — this repository holds no secrets and its automation never needs one.
 
-Cost of one daily measurement, all five categories: **about a third of a cent**. A full week: about two cents.
-
 ## Method, in short
 
 - **Engine:** Perplexity (agent mode), one sample per question, US market, English.
-- **Cadence:** measured daily, published weekly. On 2026-08-28 the same questions run twice hours
-  apart moved four of six tools and swapped the leader, so a single snapshot is noise — the
-  published figure pools a week of daily answers.
+- **Cadence:** one measurement a week since 16 November 2026 (daily until 11 November). On
+  2026-08-28 the same questions, run twice hours apart, moved four of six tools, so read one week
+  as a snapshot and follow the trend across weeks.
 - **Questions:** fixed in [`categories.json`](categories.json). They change between editions only,
   never within one, and every change is a commit you can read.
 - **Matching:** each tool declares a URL pattern; a citation counts when a cited URL matches it.
-- **Data:** every day's answers and citation lists land in [`data/daily/`](data/daily/).
+- **Data:** every measurement's answers and citation lists land in [`data/daily/`](data/daily/).
 
 **What it does not measure:** quality, price, reliability, or fit. It measures visibility inside
 AI answers, which is a different thing — and worth knowing precisely because it is different.
